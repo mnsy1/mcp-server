@@ -45,7 +45,11 @@ git clone https://github.com/mnsy1/mcp-server.git
 ```shell
 uv add -r requirements.txt
 ```
-3. Start the MCP server:
+3. Create `.env` file for [Serper](https://serper.dev/api-keys) Api Key:
+```
+SERPER_API_KEY=fa77dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+5. Start the MCP server:
 ```shell
 uv run main.py
 ```
